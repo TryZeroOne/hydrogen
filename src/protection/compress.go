@@ -21,8 +21,8 @@ var UpxData = map[string]string{
 	// "557058":   hex.EncodeToString([]byte(GenString(3))),
 	// "555058":   hex.EncodeToString([]byte(GenString(3))),
 
-	"55505831": hex.EncodeToString([]byte(GenString(3))) + "31", // section
-	"55505832": hex.EncodeToString([]byte(GenString(3))) + "32",
+	// "55505831": hex.EncodeToString([]byte(GenString(3))) + "31", // section
+	// "55505832": hex.EncodeToString([]byte(GenString(3))) + "32", 
 }
 
 func Compress(file string) error {
